@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bộ chuyển đổi cơ số</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+
+  </head>
+  <body>
+    <h1>Bộ chuyển đổi cơ số</h1>
+    <p>công cụ giúp bạn đỡ phải tính toán <br>
+        code by louis--Trịnh quang Đạt
+    </p>
+    <div>
+      số cần chuyển
+      <input
+        id="n"
+        onchange="radix();"
+        min="0"
+        type="number"
+        value="10"
+      />
+      hệ cơ số
+      <input
+        id="from"
+        onchange="radix();"
+        max="36"
+        min="2"
+        type="number"
+        value="10"
+      />
+      chuyển sang hệ cơ số nào
+      <input
+        id="to"
+        onchange="radix();"
+        max="36"
+        min="2"
+        type="number"
+        value="2"
+      />.
+    </div>
+    <p><strong><span>10</span><sub>10</sub></strong> = <strong><span>1010</span><sub>2</sub></strong>.</p>
+  </body>
+</html>
